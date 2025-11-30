@@ -244,6 +244,7 @@ static void Task_NewGameBirchSpeech_ProcessNameYesNoMenu(u8);
 void CreateYesNoMenuParameterized(u8, u8, u16, u16, u8, u8);
 static void Task_NewGameBirchSpeech_SlidePlatformAway2(u8);
 static void Task_NewGameBirchSpeech_ReshowBirchLotad(u8);
+u8 CheckSpecialNames(void);
 static void Task_NewGameBirchSpeech_WaitForSpriteFadeInAndTextPrinter(u8);
 static void Task_NewGameBirchSpeech_AreYouReady(u8);
 static void Task_NewGameBirchSpeech_ShrinkPlayer(u8);
@@ -1844,12 +1845,48 @@ static void Task_NewGameBirchSpeech_ReshowBirchLotad(u8 taskId)
         NewGameBirchSpeech_StartFadeInTarget1OutTarget2(taskId, 2);
         NewGameBirchSpeech_StartFadePlatformOut(taskId, 1);
         NewGameBirchSpeech_ClearWindow(0);
-        StringExpandPlaceholders(gStringVar4, gText_Birch_YourePlayer);
+        switch(CheckSpecialNames())
+        {
+        // Maple
+        case 1:
+            StringExpandPlaceholders(gStringVar4, gText_Birch_YourePlayerMaple);
+            break;
+        case 2:
+            StringExpandPlaceholders(gStringVar4, gText_Birch_YourePlayerMaddy);
+            break;
+        case 0:
+        default:
+            StringExpandPlaceholders(gStringVar4, gText_Birch_YourePlayer);
+            break;
+        }
         AddTextPrinterForMessage(TRUE);
         gTasks[taskId].func = Task_NewGameBirchSpeech_WaitForSpriteFadeInAndTextPrinter;
     }
 }
 
+u8 CheckSpecialNames(void)
+{
+    const u8 *name = gText_SpecialNameMaple;
+    u8 name_length = 5;
+    u8 specialName = 0; 
+    bool matchesName = false;
+    // Check Maple
+    if(strncmp(gSaveBlock2Ptr->playerName, name, name_length) == 0)
+    {
+        specialName = 1;
+    }
+    else
+    {
+        name = gText_SpecialNameMaddy;
+        name_length = 5;
+        if(strncmp(gSaveBlock2Ptr->playerName, name, name_length) == 0)
+        {
+            specialName = 2;
+        }
+    }
+    
+    return specialName;
+}
 static void Task_NewGameBirchSpeech_WaitForSpriteFadeInAndTextPrinter(u8 taskId)
 {
     if (gTasks[taskId].tIsDoneFadingSprites)

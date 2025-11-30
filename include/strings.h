@@ -367,6 +367,8 @@ extern const u8 gText_Birch_ChallengeHard[];
 extern const u8 gText_Birch_WhatsYourName[];
 extern const u8 gText_Birch_SoItsPlayer[];
 extern const u8 gText_Birch_YourePlayer[];
+extern const u8 gText_Birch_YourePlayerMaple[];
+extern const u8 gText_Birch_YourePlayerMaddy[];
 extern const u8 gText_Birch_AreYouReady[];
 extern const u8 gText_ContinueMenuPlayer[];
 extern const u8 gText_ContinueMenuTime[];
@@ -414,6 +416,8 @@ extern const u8 gText_DefaultNameLillie[];
 extern const u8 gText_DefaultNameTerra[];
 extern const u8 gText_DefaultNameLucy[];
 extern const u8 gText_DefaultNameHalie[];
+extern const u8 gText_SpecialNameMaple[];
+extern const u8 gText_SpecialNameMaddy[];
 
 extern const u8 gText_BirchInTrouble[];
 extern const u8 gText_ConfirmStarterChoice[];

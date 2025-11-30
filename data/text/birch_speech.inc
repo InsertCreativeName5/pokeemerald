@@ -117,6 +117,20 @@ gText_Birch_YourePlayer::
 	.string "hometown of LITTLEROOT.\l"
 	.string "I get it now!\p"
 	.string "$"
+    
+gText_Birch_YourePlayerMaple::
+	.string "Ah, of course! Gang gang!\p"
+	.string "YURR {PLAYER}{KUN} who's moving to my\n"
+	.string "hometown of LITTLEROOT.\l"
+	.string "I get it now!\p"
+	.string "$"
+
+gText_Birch_YourePlayerMaddy::
+	.string "Ah, of course! Madrrrrrucksack!\p"
+	.string "You're {PLAYER}{KUN} who's moving to my\n"
+	.string "hometown of LITTLEROOT.\l"
+	.string "I get it now!\p"
+	.string "$"
 
 gText_Birch_AreYouReady::
 	.string "All right, are you ready?\p"
