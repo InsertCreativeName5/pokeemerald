@@ -2113,6 +2113,14 @@ Cry_Ursaluna_BloodMoon::
 	.align 2
 Cry_Kleavor::
 	.incbin "sound/direct_sound_samples/cries/kleavor.bin"
+    
+    .align 2
+Cry_Minccino::
+	.incbin "sound/direct_sound_samples/cries/minccino.bin"
+    
+    .align 2
+Cry_Cinccino::
+	.incbin "sound/direct_sound_samples/cries/cinccino.bin"
 
 	.align 2
 Cry_Test::

@@ -7931,12 +7931,12 @@ static const u16 sKleavorLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const u16 sUnusedSpace5LevelUpLearnset[] = {
+static const u16 sMinccinoLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_END
 };
 
-static const u16 sUnusedSpace6LevelUpLearnset[] = {
+static const u16 sCinccinoLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_END
 };

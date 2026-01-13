@@ -2564,3 +2564,13 @@ const u8 gKleavorPokedexText[] = _(
             "its crude axes and shields itself with hard\n"
             "stone. Should one encounter this Pokémon\n"
             "in the wild, one's only recourse is to flee.");
+            
+const u8 gMinccinoPokedexText[] = _(
+            "These Pokémon like things neat and tidy.\n"
+            "They are always sweeping and dusting\n"
+            "their habitat, using their tails as brooms.");
+            
+const u8 gCinccinoPokedexText[] = _(
+            "The oil that seeps from its body is\n"
+            "really smooth. For people troubled by\n"
+            "bad skin, this oil is an effective treatment");

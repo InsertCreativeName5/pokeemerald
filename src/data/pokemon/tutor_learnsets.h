@@ -8331,6 +8331,38 @@ static const u8 sKleavorTutorLearnset[] =
     0xFF,
 };
 
+static const u8 sMinccinoTutorLearnset[] =
+{
+    TUTOR(MOVE_SWORDS_DANCE),
+    TUTOR(MOVE_DOUBLE_EDGE),
+    TUTOR(MOVE_COUNTER),
+    TUTOR(MOVE_MIMIC),
+    TUTOR(MOVE_SUBSTITUTE),
+    TUTOR(MOVE_SNORE),
+    TUTOR(MOVE_ENDURE),
+    TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SWIFT),
+    TUTOR(MOVE_FURY_CUTTER),
+    0xFF,
+};
+
+static const u8 sCinccinoTutorLearnset[] =
+{
+    TUTOR(MOVE_SWORDS_DANCE),
+    TUTOR(MOVE_DOUBLE_EDGE),
+    TUTOR(MOVE_COUNTER),
+    TUTOR(MOVE_MIMIC),
+    TUTOR(MOVE_SUBSTITUTE),
+    TUTOR(MOVE_SNORE),
+    TUTOR(MOVE_ENDURE),
+    TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SWIFT),
+    TUTOR(MOVE_FURY_CUTTER),
+    0xFF,
+};
+
 static const u8 sTestTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
@@ -8803,5 +8835,7 @@ static const u8 *const sTutorLearnsets[] =
     [SPECIES_URSALUNA] = sUrsalunaTutorLearnset,
     [SPECIES_URSALUNA_BLOODMOON] = sUrsalunaBloodmoonTutorLearnset,
     [SPECIES_KLEAVOR] = sKleavorTutorLearnset,
+    [SPECIES_MINCCINO] = sMinccinoTutorLearnset,
+    [SPECIES_CINCCINO] = sCinccinoTutorLearnset,
     [SPECIES_TEST] = sTestTutorLearnset,
 };

@@ -3137,6 +3137,20 @@ const u32 gMonShinyPalette_Kleavor[] = INCBIN_U32("graphics/pokemon/kleavor/shin
 const u8 gMonIcon_Kleavor[] = INCBIN_U8("graphics/pokemon/kleavor/icon.4bpp");
 const u8 gMonFootprint_Kleavor[] = INCBIN_U8("graphics/pokemon/kleavor/footprint.1bpp");
 
+const u32 gMonStillFrontPic_Minccino[] = INCBIN_U32("graphics/pokemon/Minccino/front.4bpp.lz");
+const u32 gMonPalette_Minccino[] = INCBIN_U32("graphics/pokemon/Minccino/normal.gbapal.lz");
+const u32 gMonBackPic_Minccino[] = INCBIN_U32("graphics/pokemon/Minccino/back.4bpp.lz");
+const u32 gMonShinyPalette_Minccino[] = INCBIN_U32("graphics/pokemon/Minccino/shiny.gbapal.lz");
+const u8 gMonIcon_Minccino[] = INCBIN_U8("graphics/pokemon/Minccino/icon.4bpp");
+const u8 gMonFootprint_Minccino[] = INCBIN_U8("graphics/pokemon/Minccino/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Cinccino[] = INCBIN_U32("graphics/pokemon/Cinccino/front.4bpp.lz");
+const u32 gMonPalette_Cinccino[] = INCBIN_U32("graphics/pokemon/Cinccino/normal.gbapal.lz");
+const u32 gMonBackPic_Cinccino[] = INCBIN_U32("graphics/pokemon/Cinccino/back.4bpp.lz");
+const u32 gMonShinyPalette_Cinccino[] = INCBIN_U32("graphics/pokemon/Cinccino/shiny.gbapal.lz");
+const u8 gMonIcon_Cinccino[] = INCBIN_U8("graphics/pokemon/Cinccino/icon.4bpp");
+const u8 gMonFootprint_Cinccino[] = INCBIN_U8("graphics/pokemon/Cinccino/footprint.1bpp");
+
 //Modern shinies
 const u32 gMonShinyPalette_Modern_Pikachu[] = INCBIN_U32("graphics/pokemon/pikachu/shiny_modern.gbapal.lz");
 const u32 gMonShinyPalette_Modern_Raichu[] = INCBIN_U32("graphics/pokemon/raichu/shiny_modern.gbapal.lz");

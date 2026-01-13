@@ -6433,6 +6433,20 @@ const struct FacilityMon gBattleFrontierMonsSplit[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_HP | F_EV_SPREAD_ATTACK,
         .nature = NATURE_ADAMANT
     },
+    [FRONTIER_MON_MINCCINO_1] = {
+        .species = SPECIES_MINCCINO,
+        .moves = {MOVE_BULLET_SEED, MOVE_ENDEAVOR, MOVE_ROCK_BLAST, MOVE_DOUBLE_SLAP},
+        .itemTableId = BATTLE_FRONTIER_ITEM_SITRUS_BERRY,
+        .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_SPEED,
+        .nature = NATURE_JOLLY
+    },
+    [FRONTIER_MON_CINCCINO_1] = {
+        .species = SPECIES_CINCCINO,
+        .moves = {MOVE_BULLET_SEED, MOVE_ENDEAVOR, MOVE_ROCK_BLAST, MOVE_DOUBLE_SLAP},
+        .itemTableId = BATTLE_FRONTIER_ITEM_SITRUS_BERRY,
+        .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_SPEED,
+        .nature = NATURE_JOLLY
+    },
 };
 
 const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
@@ -12869,5 +12883,19 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .itemTableId = BATTLE_FRONTIER_ITEM_SITRUS_BERRY,
         .evSpread = F_EV_SPREAD_HP | F_EV_SPREAD_ATTACK,
         .nature = NATURE_ADAMANT
+    },
+    [FRONTIER_MON_MINCCINO_1] = {
+        .species = SPECIES_MINCCINO,
+        .moves = {MOVE_BULLET_SEED, MOVE_ENDEAVOR, MOVE_ROCK_BLAST, MOVE_DOUBLE_SLAP},
+        .itemTableId = BATTLE_FRONTIER_ITEM_SITRUS_BERRY,
+        .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_SPEED,
+        .nature = NATURE_JOLLY
+    },
+    [FRONTIER_MON_CINCCINO_1] = {
+        .species = SPECIES_CINCCINO,
+        .moves = {MOVE_BULLET_SEED, MOVE_ENDEAVOR, MOVE_ROCK_BLAST, MOVE_DOUBLE_SLAP},
+        .itemTableId = BATTLE_FRONTIER_ITEM_SITRUS_BERRY,
+        .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_SPEED,
+        .nature = NATURE_JOLLY
     },
 };

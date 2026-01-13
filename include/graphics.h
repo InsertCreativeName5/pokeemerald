@@ -3206,6 +3206,22 @@ extern const u32 gMonStillFrontPic_Kleavor[];
 extern const u8 gMonIcon_Kleavor[];
 extern const u8 gMonFootprint_Kleavor[];
 
+extern const u32 gMonFrontPic_Minccino[];
+extern const u32 gMonPalette_Minccino[];
+extern const u32 gMonBackPic_Minccino[];
+extern const u32 gMonShinyPalette_Minccino[];
+extern const u32 gMonStillFrontPic_Minccino[];
+extern const u8 gMonIcon_Minccino[];
+extern const u8 gMonFootprint_Minccino[];
+
+extern const u32 gMonFrontPic_Cinccino[];
+extern const u32 gMonPalette_Cinccino[];
+extern const u32 gMonBackPic_Cinccino[];
+extern const u32 gMonShinyPalette_Cinccino[];
+extern const u32 gMonStillFrontPic_Cinccino[];
+extern const u8 gMonIcon_Cinccino[];
+extern const u8 gMonFootprint_Cinccino[];
+
 extern const u8 gMonIcon_Test[];
 extern const u32 gMonFrontPic_Test[];
 extern const u32 gMonPalette_Test[];
