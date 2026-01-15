@@ -5175,7 +5175,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
-    [NATIONAL_DEX_UNUSED_SPACE6] =
+    [NATIONAL_DEX_CINCCINO] =
     {
         .categoryName = _("Scarf"),
         .height = 5,

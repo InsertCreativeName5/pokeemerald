@@ -11518,12 +11518,12 @@ const union {
         .ROCK_SMASH = TRUE,
     } }, 
 
-    [SPECIES_UNUSED_SPACE5] = { .learnset = {
+    [SPECIES_MINCCINO] = { .learnset = {
         .FOCUS_PUNCH = TRUE,
         .DIVE = TRUE,
     } }, 
 
-    [SPECIES_UNUSED_SPACE6] = { .learnset = {
+    [SPECIES_CINCCINO] = { .learnset = {
         .FOCUS_PUNCH = TRUE,
         .DIVE = TRUE,
     } }, 

@@ -15,12 +15,21 @@ def extract_palette(path):
     with open(out_path, 'w', newline='\r\n') as f:
         f.write(PAL_PRELUDE)
         colors = r.palette()
-        if len(colors) < 16:
-            colors += [(0, 0, 0) for _ in range(16-len(colors))]
-        f.write(f'{len(colors)}\n')
-        for r, g, b in colors:
-            f.write(f'{r} {g} {b}\n')
 
+        if len(colors[0]) == 4:
+            if len(colors) < 16:
+                colors += [(0, 0, 0, 255) for _ in range(16-len(colors))]
+            
+            f.write(f'{len(colors)}\n')
+            for r, g, b, _ in colors:
+                f.write(f'{r} {g} {b}\n')
+        else:
+            if len(colors) < 16:
+                colors += [(0, 0, 0) for _ in range(16-len(colors))]
+          
+            f.write(f'{len(colors)}\n')
+            for r, g, b in colors:
+                f.write(f'{r} {g} {b}\n')
 
 if __name__ == '__main__':
     extract_palette(*sys.argv[1:])

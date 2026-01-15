@@ -1,5 +1,12 @@
 # Pokémon Modern Emerald
 
+This is a custom version of Pokemon Emerald, based heavily on Pokemon Modern Emerald by resetes12, who worked from the decompilation of Pokemon Emerald by pret. Pokemon Emerald Expansion, by the RHH (Rom Hacking Hideout) was the source for much of the sprite work done. 
+
+All other work was done by MapleMaple_ch's moderation team, primarily Madrucksack and Creative.
+
+Below are the original README notes.
+
+
 This is a decompilation of Pokémon Emerald, edited to be "Pokémon Modern Emerald".
 You can get more information about Modern Emerald at [Pokecommunity](https://www.pokecommunity.com/showthread.php?t=494005)
 You can the hackrom documentation following [this link](https://docs.google.com/spreadsheets/d/1QEFJmFhfaZqgxSUnM7MFpufrnrRk_NMzNoNWl2m3y_0/edit#gid=414283818)
